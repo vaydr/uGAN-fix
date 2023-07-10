@@ -1,0 +1,425 @@
+	Finished generating fake dataset 0 in GEN_U
+	Finished generating fake dataset 1 in GEN_U
+	Finished generating fake dataset 2 in GEN_U
+	Finished generating fake dataset 3 in GEN_U
+	Finished generating fake dataset 0 in GEN_U
+	Finished generating fake dataset 1 in GEN_U
+	Finished generating fake dataset 2 in GEN_U
+	Finished generating fake dataset 3 in GEN_U
+	Finished generating fake dataset 0 in GEN_U
+	Finished generating fake dataset 1 in GEN_U
+	Finished generating fake dataset 2 in GEN_U
+	Finished generating fake dataset 3 in GEN_U
+	Finished generating fake dataset 0 in GEN_U
+	Finished generating fake dataset 1 in GEN_U
+	Finished generating fake dataset 2 in GEN_U
+	Finished generating fake dataset 3 in GEN_U
+	Finished generating fake dataset 0 in GEN_U
+	Finished generating fake dataset 1 in GEN_U
+	Finished generating fake dataset 2 in GEN_U
+	Finished generating fake dataset 3 in GEN_U
+	Finished generating fake dataset 0 in GEN_U
+	Finished generating fake dataset 1 in GEN_U
+	Finished generating fake dataset 2 in GEN_U
+	Finished generating fake dataset 3 in GEN_U
+	Finished generating fake dataset 0 in GEN_U
+	Finished generating fake dataset 1 in GEN_U
+	Finished generating fake dataset 2 in GEN_U
+	Finished generating fake dataset 3 in GEN_U
+	Finished generating fake dataset 0 in GEN_U
+	Finished generating fake dataset 1 in GEN_U
+	Finished generating fake dataset 2 in GEN_U
+	Finished generating fake dataset 3 in GEN_U
+Reading file comments_train1 in PRIVACY_NOCOUNT
+Analyzing fake dataset number 0 in privacy_full
+An error occurred with privacy_full for generator sep_uniformgan
+Error: [Errno 2] No such file or directory: 'datasets_synthetic/Comments/comments_train1_sep_uniformgan_drugc_sepU_dp1_8e_4count_4ds-00-0.csv'Traceback: Traceback (most recent call last):
+  File "run.py", line 37, in run
+    actions.__dict__[action](folder, generator, args=args, additionals=arg_additionals)
+  File "/mnt/LMC3ABCCB34993/vaiks_uniformgan/actions.py", line 222, in privacy_full
+    sample_dataset = pd.read_csv(f"datasets_synthetic/{folder}/{file}_{generator}{args.postfix}-{ggen_count}-{num_datas}.csv", index_col=False)
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 912, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 577, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1407, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1661, in _make_engine
+    self.handles = get_handle(
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/pandas/io/common.py", line 859, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'datasets_synthetic/Comments/comments_train1_sep_uniformgan_drugc_sepU_dp1_8e_4count_4ds-00-0.csv'
+Reading file comments_train1 in STATS_full
+Analyzing stats for dataset 0 in STATS_full
+An error occurred with stats_full for generator sep_uniformgan
+Error: [Errno 2] No such file or directory: 'datasets_synthetic/Comments/comments_train1_sep_uniformgan_drugc_sepU_dp1_8e_4count_4ds-00-0.csv'Traceback: Traceback (most recent call last):
+  File "run.py", line 37, in run
+    actions.__dict__[action](folder, generator, args=args, additionals=arg_additionals)
+  File "/mnt/LMC3ABCCB34993/vaiks_uniformgan/actions.py", line 162, in stats_full
+    sample_dataset = pd.read_csv(f"datasets_synthetic/{folder}/{file}_{generator}{args.postfix}-{ggen_count}-{num_datas}.csv", index_col=False)
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 912, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 577, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1407, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1661, in _make_engine
+    self.handles = get_handle(
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/pandas/io/common.py", line 859, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'datasets_synthetic/Comments/comments_train1_sep_uniformgan_drugc_sepU_dp1_8e_4count_4ds-00-0.csv'
+Analyzing fake dataset number 0 in eval_full
+An error occurred with eval_full for generator sep_uniformgan
+Error: [Errno 2] No such file or directory: 'datasets_synthetic/Comments/comments_train1_sep_uniformgan_drugc_sepU_dp1_8e_4count_4ds-00-0.csv'Traceback: Traceback (most recent call last):
+  File "run.py", line 37, in run
+    actions.__dict__[action](folder, generator, args=args, additionals=arg_additionals)
+  File "/mnt/LMC3ABCCB34993/vaiks_uniformgan/actions.py", line 280, in eval_full
+    sample_dataset = pd.read_csv(f"datasets_synthetic/{folder}/{file}_{generator}{args.postfix}-{ggen_count}-{num_datas}.csv", index_col=False)
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 912, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 577, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1407, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1661, in _make_engine
+    self.handles = get_handle(
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/pandas/io/common.py", line 859, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'datasets_synthetic/Comments/comments_train1_sep_uniformgan_drugc_sepU_dp1_8e_4count_4ds-00-0.csv'
+Reading file comments_train1 in PRIVACY_NOCOUNT
+Analyzing fake dataset number 0 in privacy_full
+Analyzing fake dataset number 1 in privacy_full
+Analyzing fake dataset number 2 in privacy_full
+Analyzing fake dataset number 3 in privacy_full
+Analyzing fake dataset number 0 in privacy_full
+Analyzing fake dataset number 1 in privacy_full
+Analyzing fake dataset number 2 in privacy_full
+Analyzing fake dataset number 3 in privacy_full
+Analyzing fake dataset number 0 in privacy_full
+Analyzing fake dataset number 1 in privacy_full
+Analyzing fake dataset number 2 in privacy_full
+Analyzing fake dataset number 3 in privacy_full
+Analyzing fake dataset number 0 in privacy_full
+Analyzing fake dataset number 1 in privacy_full
+Analyzing fake dataset number 2 in privacy_full
+Analyzing fake dataset number 3 in privacy_full
+Reading file comments_train2 in PRIVACY_NOCOUNT
+Analyzing fake dataset number 0 in privacy_full
+Analyzing fake dataset number 1 in privacy_full
+Analyzing fake dataset number 2 in privacy_full
+Analyzing fake dataset number 3 in privacy_full
+Analyzing fake dataset number 0 in privacy_full
+Analyzing fake dataset number 1 in privacy_full
+Analyzing fake dataset number 2 in privacy_full
+Analyzing fake dataset number 3 in privacy_full
+Analyzing fake dataset number 0 in privacy_full
+Analyzing fake dataset number 1 in privacy_full
+Analyzing fake dataset number 2 in privacy_full
+Analyzing fake dataset number 3 in privacy_full
+Analyzing fake dataset number 0 in privacy_full
+Analyzing fake dataset number 1 in privacy_full
+Analyzing fake dataset number 2 in privacy_full
+Analyzing fake dataset number 3 in privacy_full
+Reading file comments_train1 in STATS_full
+Analyzing stats for dataset 0 in STATS_full
+An error occurred with stats_full for generator sep_uniformgan
+Error: No module named 'dython'Traceback: Traceback (most recent call last):
+  File "run.py", line 37, in run
+    actions.__dict__[action](folder, generator, args=args, additionals=arg_additionals)
+  File "/mnt/LMC3ABCCB34993/vaiks_uniformgan/actions.py", line 172, in stats_full
+    plot_correlations(js, dataset, sample_dataset, logger, plot_corr, plot_corr_specific)
+  File "/mnt/LMC3ABCCB34993/vaiks_uniformgan/./analysis/stats.py", line 4, in plot_correlations
+    from dython.nominal import associations
+ModuleNotFoundError: No module named 'dython'
+Analyzing fake dataset number 0 in eval_full
+Analyzing fake dataset number 1 in eval_full
+Analyzing fake dataset number 2 in eval_full
+Analyzing fake dataset number 3 in eval_full
+Analyzing fake dataset number 0 in eval_full
+Analyzing fake dataset number 1 in eval_full
+Analyzing fake dataset number 2 in eval_full
+Analyzing fake dataset number 3 in eval_full
+Analyzing fake dataset number 0 in eval_full
+Analyzing fake dataset number 1 in eval_full
+Analyzing fake dataset number 2 in eval_full
+Analyzing fake dataset number 3 in eval_full
+Analyzing fake dataset number 0 in eval_full
+Analyzing fake dataset number 1 in eval_full
+Analyzing fake dataset number 2 in eval_full
+Analyzing fake dataset number 3 in eval_full
+Analyzing fake dataset number 0 in eval_full
+Analyzing fake dataset number 1 in eval_full
+Analyzing fake dataset number 2 in eval_full
+Analyzing fake dataset number 3 in eval_full
+Analyzing fake dataset number 0 in eval_full
+Analyzing fake dataset number 1 in eval_full
+Analyzing fake dataset number 2 in eval_full
+Analyzing fake dataset number 3 in eval_full
+Analyzing fake dataset number 0 in eval_full
+Analyzing fake dataset number 1 in eval_full
+Analyzing fake dataset number 2 in eval_full
+Analyzing fake dataset number 3 in eval_full
+Analyzing fake dataset number 0 in eval_full
+Analyzing fake dataset number 1 in eval_full
+Analyzing fake dataset number 2 in eval_full
+Analyzing fake dataset number 3 in eval_full
+Reading file comments_train1 in STATS_full
+Analyzing stats for dataset 0 in STATS_full
+An error occurred with stats_full for generator sep_uniformgan
+Error: Image data of dtype object cannot be converted to floatTraceback: Traceback (most recent call last):
+  File "run.py", line 37, in run
+    actions.__dict__[action](folder, generator, args=args, additionals=arg_additionals)
+  File "/mnt/LMC3ABCCB34993/vaiks_uniformgan/actions.py", line 172, in stats_full
+    plot_correlations(js, dataset, sample_dataset, logger, plot_corr, plot_corr_specific)
+  File "/mnt/LMC3ABCCB34993/vaiks_uniformgan/./analysis/stats.py", line 7, in plot_correlations
+    res = associations(sample_dataset, annot=False, plot=False, ax=ax)
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/dython/nominal.py", line 556, in associations
+    ax = sns.heatmap(corr,
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/seaborn/_decorators.py", line 46, in inner_f
+    return f(**kwargs)
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/seaborn/matrix.py", line 548, in heatmap
+    plotter.plot(ax, cbar_ax, kwargs)
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/seaborn/matrix.py", line 298, in plot
+    mesh = ax.pcolormesh(self.plot_data, cmap=self.cmap, **kws)
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/matplotlib/__init__.py", line 1442, in inner
+    return func(ax, *map(sanitize_sequence, args), **kwargs)
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/matplotlib/axes/_axes.py", line 6229, in pcolormesh
+    collection = mcoll.QuadMesh(
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/matplotlib/collections.py", line 1939, in __init__
+    super().__init__(**kwargs)
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/matplotlib/_api/deprecation.py", line 454, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/matplotlib/collections.py", line 201, in __init__
+    self._internal_update(kwargs)
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/matplotlib/artist.py", line 1223, in _internal_update
+    return self._update_props(
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/matplotlib/artist.py", line 1199, in _update_props
+    ret.append(func(v))
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/matplotlib/collections.py", line 1986, in set_array
+    return super().set_array(A)
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/matplotlib/cm.py", line 515, in set_array
+    raise TypeError(f"Image data of dtype {A.dtype} cannot be "
+TypeError: Image data of dtype object cannot be converted to float
+Reading file comments_train1 in STATS_full
+Analyzing stats for dataset 0 in STATS_full
+Analyzing stats for dataset 1 in STATS_full
+Analyzing stats for dataset 2 in STATS_full
+Analyzing stats for dataset 3 in STATS_full
+Analyzing stats for dataset 0 in STATS_full
+Analyzing stats for dataset 1 in STATS_full
+Analyzing stats for dataset 2 in STATS_full
+Analyzing stats for dataset 3 in STATS_full
+Analyzing stats for dataset 0 in STATS_full
+Analyzing stats for dataset 1 in STATS_full
+Analyzing stats for dataset 2 in STATS_full
+Analyzing stats for dataset 3 in STATS_full
+Analyzing stats for dataset 0 in STATS_full
+Analyzing stats for dataset 1 in STATS_full
+Analyzing stats for dataset 2 in STATS_full
+Analyzing stats for dataset 3 in STATS_full
+Reading file comments_train2 in STATS_full
+Analyzing stats for dataset 0 in STATS_full
+Analyzing stats for dataset 1 in STATS_full
+Analyzing stats for dataset 2 in STATS_full
+Analyzing stats for dataset 3 in STATS_full
+Analyzing stats for dataset 0 in STATS_full
+Analyzing stats for dataset 1 in STATS_full
+Analyzing stats for dataset 2 in STATS_full
+Analyzing stats for dataset 3 in STATS_full
+Analyzing stats for dataset 0 in STATS_full
+Analyzing stats for dataset 1 in STATS_full
+Analyzing stats for dataset 2 in STATS_full
+Analyzing stats for dataset 3 in STATS_full
+Analyzing stats for dataset 0 in STATS_full
+Analyzing stats for dataset 1 in STATS_full
+Analyzing stats for dataset 2 in STATS_full
+Analyzing stats for dataset 3 in STATS_full
+Reading file comments_train1 in STATS_full
+Analyzing stats for dataset 0 in STATS_full
+Analyzing stats for dataset 1 in STATS_full
+Analyzing stats for dataset 2 in STATS_full
+Analyzing stats for dataset 3 in STATS_full
+Analyzing stats for dataset 0 in STATS_full
+Analyzing stats for dataset 1 in STATS_full
+Reading file comments_train1 in STATS_full
+Analyzing stats for dataset 0 in STATS_full
+An error occurred with stats_full for generator sep_uniformgan
+Error: Image data of dtype object cannot be converted to floatTraceback: Traceback (most recent call last):
+  File "run.py", line 37, in run
+    actions.__dict__[action](folder, generator, args=args, additionals=arg_additionals)
+  File "/mnt/LMC3ABCCB34993/vaiks_uniformgan/actions.py", line 172, in stats_full
+    plot_correlations(js, dataset, sample_dataset, logger, plot_corr, plot_corr_specific)
+  File "/mnt/LMC3ABCCB34993/vaiks_uniformgan/./analysis/stats.py", line 7, in plot_correlations
+    res = associations(sample_dataset, annot=False, plot=False, ax=ax)
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/dython/nominal.py", line 556, in associations
+    ax = sns.heatmap(corr,
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/seaborn/_decorators.py", line 46, in inner_f
+    return f(**kwargs)
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/seaborn/matrix.py", line 548, in heatmap
+    plotter.plot(ax, cbar_ax, kwargs)
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/seaborn/matrix.py", line 298, in plot
+    mesh = ax.pcolormesh(self.plot_data, cmap=self.cmap, **kws)
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/matplotlib/__init__.py", line 1442, in inner
+    return func(ax, *map(sanitize_sequence, args), **kwargs)
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/matplotlib/axes/_axes.py", line 6229, in pcolormesh
+    collection = mcoll.QuadMesh(
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/matplotlib/collections.py", line 1939, in __init__
+    super().__init__(**kwargs)
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/matplotlib/_api/deprecation.py", line 454, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/matplotlib/collections.py", line 201, in __init__
+    self._internal_update(kwargs)
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/matplotlib/artist.py", line 1223, in _internal_update
+    return self._update_props(
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/matplotlib/artist.py", line 1199, in _update_props
+    ret.append(func(v))
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/matplotlib/collections.py", line 1986, in set_array
+    return super().set_array(A)
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/matplotlib/cm.py", line 515, in set_array
+    raise TypeError(f"Image data of dtype {A.dtype} cannot be "
+TypeError: Image data of dtype object cannot be converted to float
+Reading file comments_train1 in STATS_full
+Analyzing stats for dataset 0 in STATS_full
+An error occurred with stats_full for generator sep_uniformgan
+Error: Image data of dtype object cannot be converted to floatTraceback: Traceback (most recent call last):
+  File "run.py", line 37, in run
+    actions.__dict__[action](folder, generator, args=args, additionals=arg_additionals)
+  File "/mnt/LMC3ABCCB34993/vaiks_uniformgan/actions.py", line 172, in stats_full
+    plot_correlations(js, dataset, sample_dataset, logger, plot_corr, plot_corr_specific)
+  File "/mnt/LMC3ABCCB34993/vaiks_uniformgan/./analysis/stats.py", line 7, in plot_correlations
+    res = associations(sample_dataset, annot=False, plot=False, ax=ax)
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/dython/nominal.py", line 556, in associations
+    ax = sns.heatmap(corr,
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/seaborn/_decorators.py", line 46, in inner_f
+    return f(**kwargs)
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/seaborn/matrix.py", line 548, in heatmap
+    plotter.plot(ax, cbar_ax, kwargs)
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/seaborn/matrix.py", line 298, in plot
+    mesh = ax.pcolormesh(self.plot_data, cmap=self.cmap, **kws)
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/matplotlib/__init__.py", line 1442, in inner
+    return func(ax, *map(sanitize_sequence, args), **kwargs)
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/matplotlib/axes/_axes.py", line 6229, in pcolormesh
+    collection = mcoll.QuadMesh(
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/matplotlib/collections.py", line 1939, in __init__
+    super().__init__(**kwargs)
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/matplotlib/_api/deprecation.py", line 454, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/matplotlib/collections.py", line 201, in __init__
+    self._internal_update(kwargs)
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/matplotlib/artist.py", line 1223, in _internal_update
+    return self._update_props(
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/matplotlib/artist.py", line 1199, in _update_props
+    ret.append(func(v))
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/matplotlib/collections.py", line 1986, in set_array
+    return super().set_array(A)
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/matplotlib/cm.py", line 515, in set_array
+    raise TypeError(f"Image data of dtype {A.dtype} cannot be "
+TypeError: Image data of dtype object cannot be converted to float
+Reading file comments_train1 in STATS_full
+Analyzing stats for dataset 0 in STATS_full
+An error occurred with stats_full for generator sep_uniformgan
+Error: Image data of dtype object cannot be converted to floatTraceback: Traceback (most recent call last):
+  File "run.py", line 37, in run
+    actions.__dict__[action](folder, generator, args=args, additionals=arg_additionals)
+  File "/mnt/LMC3ABCCB34993/vaiks_uniformgan/actions.py", line 172, in stats_full
+    plot_correlations(js, dataset, sample_dataset, logger, plot_corr, plot_corr_specific)
+  File "/mnt/LMC3ABCCB34993/vaiks_uniformgan/./analysis/stats.py", line 7, in plot_correlations
+    res = associations(sample_dataset, annot=False, plot=False, ax=ax)
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/dython/nominal.py", line 556, in associations
+    ax = sns.heatmap(corr,
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/seaborn/_decorators.py", line 46, in inner_f
+    return f(**kwargs)
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/seaborn/matrix.py", line 548, in heatmap
+    plotter.plot(ax, cbar_ax, kwargs)
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/seaborn/matrix.py", line 298, in plot
+    mesh = ax.pcolormesh(self.plot_data, cmap=self.cmap, **kws)
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/matplotlib/__init__.py", line 1442, in inner
+    return func(ax, *map(sanitize_sequence, args), **kwargs)
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/matplotlib/axes/_axes.py", line 6229, in pcolormesh
+    collection = mcoll.QuadMesh(
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/matplotlib/collections.py", line 1939, in __init__
+    super().__init__(**kwargs)
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/matplotlib/_api/deprecation.py", line 454, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/matplotlib/collections.py", line 201, in __init__
+    self._internal_update(kwargs)
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/matplotlib/artist.py", line 1223, in _internal_update
+    return self._update_props(
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/matplotlib/artist.py", line 1199, in _update_props
+    ret.append(func(v))
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/matplotlib/collections.py", line 1986, in set_array
+    return super().set_array(A)
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/matplotlib/cm.py", line 515, in set_array
+    raise TypeError(f"Image data of dtype {A.dtype} cannot be "
+TypeError: Image data of dtype object cannot be converted to float
+Reading file comments_train1 in STATS_full
+Analyzing stats for dataset 0 in STATS_full
+An error occurred with stats_full for generator sep_uniformgan
+Error: Image data of dtype object cannot be converted to floatTraceback: Traceback (most recent call last):
+  File "run.py", line 37, in run
+    actions.__dict__[action](folder, generator, args=args, additionals=arg_additionals)
+  File "/mnt/LMC3ABCCB34993/vaiks_uniformgan/actions.py", line 172, in stats_full
+    plot_correlations(js, dataset, sample_dataset, logger, plot_corr, plot_corr_specific)
+  File "/mnt/LMC3ABCCB34993/vaiks_uniformgan/./analysis/stats.py", line 7, in plot_correlations
+    res = associations(sample_dataset, annot=False, plot=False, ax=ax)
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/dython/nominal.py", line 556, in associations
+    ax = sns.heatmap(corr,
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/seaborn/_decorators.py", line 46, in inner_f
+    return f(**kwargs)
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/seaborn/matrix.py", line 548, in heatmap
+    plotter.plot(ax, cbar_ax, kwargs)
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/seaborn/matrix.py", line 298, in plot
+    mesh = ax.pcolormesh(self.plot_data, cmap=self.cmap, **kws)
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/matplotlib/__init__.py", line 1442, in inner
+    return func(ax, *map(sanitize_sequence, args), **kwargs)
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/matplotlib/axes/_axes.py", line 6229, in pcolormesh
+    collection = mcoll.QuadMesh(
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/matplotlib/collections.py", line 1939, in __init__
+    super().__init__(**kwargs)
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/matplotlib/_api/deprecation.py", line 454, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/matplotlib/collections.py", line 201, in __init__
+    self._internal_update(kwargs)
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/matplotlib/artist.py", line 1223, in _internal_update
+    return self._update_props(
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/matplotlib/artist.py", line 1199, in _update_props
+    ret.append(func(v))
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/matplotlib/collections.py", line 1986, in set_array
+    return super().set_array(A)
+  File "/opt/cortex-installs/miniconda/envs/ipykernel_python3.8/lib/python3.8/site-packages/matplotlib/cm.py", line 515, in set_array
+    raise TypeError(f"Image data of dtype {A.dtype} cannot be "
+TypeError: Image data of dtype object cannot be converted to float
+Reading file comments_train1 in STATS_full
+Analyzing stats for dataset 0 in STATS_full
+Analyzing stats for dataset 1 in STATS_full
+Analyzing stats for dataset 2 in STATS_full
+Analyzing stats for dataset 3 in STATS_full
+Analyzing stats for dataset 0 in STATS_full
+Analyzing stats for dataset 1 in STATS_full
+Analyzing stats for dataset 2 in STATS_full
+Analyzing stats for dataset 3 in STATS_full
+Analyzing stats for dataset 0 in STATS_full
+Analyzing stats for dataset 1 in STATS_full
+Analyzing stats for dataset 2 in STATS_full
+Analyzing stats for dataset 3 in STATS_full
+Analyzing stats for dataset 0 in STATS_full
+Analyzing stats for dataset 1 in STATS_full
+Analyzing stats for dataset 2 in STATS_full
+Analyzing stats for dataset 3 in STATS_full
+Reading file comments_train2 in STATS_full
+Analyzing stats for dataset 0 in STATS_full
+Analyzing stats for dataset 1 in STATS_full
+Analyzing stats for dataset 2 in STATS_full
+Analyzing stats for dataset 3 in STATS_full
+Analyzing stats for dataset 0 in STATS_full
+Analyzing stats for dataset 1 in STATS_full
+Analyzing stats for dataset 2 in STATS_full
+Analyzing stats for dataset 3 in STATS_full
+Analyzing stats for dataset 0 in STATS_full
+Analyzing stats for dataset 1 in STATS_full
+Analyzing stats for dataset 2 in STATS_full
+Analyzing stats for dataset 3 in STATS_full
+Analyzing stats for dataset 0 in STATS_full
+Analyzing stats for dataset 1 in STATS_full
+Analyzing stats for dataset 2 in STATS_full
+Analyzing stats for dataset 3 in STATS_full

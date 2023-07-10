@@ -1,0 +1,6 @@
+dill
+pandas
+scikit-learn
+torch==1.9.0
+dython
+table_evaluator
